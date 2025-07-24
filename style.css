@@ -1,1 +1,104 @@
-
+/* This changes my background colour to blue*/
+body{
+    background-color: #3F66AB;
+}
+/* this changes the width of my middle of my page and changes the middle to be red*/
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EB532D;
+}
+/* The nav a gives a box of my links and colours like links*/
+nav a {
+    text-decoration: none;
+    display:inline-block;
+    width:140px;
+    padding: 35px 0px;
+    color:#ee3d10;
+    font-weight: bold;
+}
+/* navs colours my boxs and puts the links in the middle at the top and a second nav creates a hover and  a colour that hovers behind the text*/
+nav{
+    background-color:#ffffff;
+    text-align: center;
+}
+nav a:hover {
+    color:#e61212;
+    background-color:#cec3c3;
+}
+/* This makes my Daniels previous teams page have smaller images and stay to the side*/
+main img{
+    max-width:300px;
+    float:left;
+}
+/* This creates a yellow block at the bottom of my page*/
+footer{
+    display:block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color:#fff387;
+    
+}
+/* This puts my home page image in the middle of the page, this keeps it a certain size so its not so big, it makes the image not repeat and also give a black border around it*/
+#hero_image{
+    background-image: url("Homepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width:600px;
+    margin:0 auto;
+    border:solid 3px #000000;
+}
+/* This puts my image in the midle and keeps it a certain size also makes sure it doesnt repeat.*/
+#about_image{
+    background-image: url("About.png");
+   background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    
+}
+/* This puts my text into the middle, colours it to black and also changes the size of the font so it's easier to read*/
+h2{
+    font-size: 50px;
+    color: #000000;
+    margin: 0px;
+    padding:60px;
+    text-align: center;
+    
+}
+/* This changes the text to white puts it into the middle and changes the text to be a certain size and font*/
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0px;
+    padding:50px;
+    text-align: center;
+}
+/* This changes the image to be a certain size and move it into the middle and also makes sure it doesn't repeat*/
+#ach_image{
+    background-image: url("achievement page.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+/* This changes the paragraph text to make it easier to read and moves the text into the middle*/
+p{
+    font-size: 19px;
+  text-align: center;
+  font-style: italic; 
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* This changes the headings to a certain font and certain size and keeps it black*/
+h2{
+    font-style: italic;
+    color:#000000;
+    font-size: 60px;
+}
+/* This keeps a certain bit of my text to the left*/
+.text1{
+    text-align: left ;
+}
