@@ -102,3 +102,15 @@ h2{
 .text1{
     text-align: left ;
 }
+/*This makes sure my image doesnt go left*/
+.rb{
+    float: none;
+}
+/*This gives my text a block of colour behind it*/
+.title{
+    background-color: #ffffff;
+}
+/*This gives my text a block of colour behind it*/
+.ach{
+    background-color: #000000;
+}
