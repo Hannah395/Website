@@ -58,23 +58,18 @@ footer{
     height: 800px;
     
 }
-/* This puts my text into the middle, colours it to black and also changes the size of the font so it's easier to read*/
-h2{
-    font-size: 50px;
-    color: #000000;
-    margin: 0px;
-    padding:60px;
-    text-align: center;
-    
-}
 /* This changes the text to white puts it into the middle and changes the text to be a certain size and font*/
 h1 {
     font-size: 60px;
-    font-style: italic;
     color: #ffffff;
     margin: 0px;
     padding:50px;
     text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 /* This changes the image to be a certain size and move it into the middle and also makes sure it doesn't repeat*/
 #ach_image{
@@ -87,25 +82,39 @@ h1 {
 p{
     font-size: 19px;
   text-align: center;
-  font-style: italic; 
     width: 75%;
     margin-left:auto;
     margin-right:auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
 }
-/* This changes the headings to a certain font and certain size and keeps it black*/
+/* This puts my text into the middle, colours it to black and also changes the size of the font so it's easier to read and looks nicer*/
 h2{
-    font-style: italic;
     color:#000000;
     font-size: 60px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 50;
+    margin: 0px;
+    padding:60px;
+    text-align: center;
+  
 }
 /* This keeps a certain bit of my text to the left*/
 .text1{
     text-align: left ;
 }
-/*This makes sure my image doesnt go left*/
+/*This makes sure my image doesnt go left and has a border ao it matches my homepages other image*/
 .rb{
     float: none;
+    border:solid 3px #000000;
 }
+
 /*This gives my text a block of colour behind it*/
 .title{
     background-color: #ffffff;
